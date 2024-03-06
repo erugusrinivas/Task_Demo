@@ -1,0 +1,95 @@
+body{
+    background-color: #d7f4da;
+    font-family: Roboto;
+    font-size: 19px;
+    background-image: url(https://s3-us-west-2.amazonaws.com/userdata123/www/imagefields/1085/theme_form_background_image-1695725676-78-768-1321085627.jpg?_=1695725677812);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+}
+form{
+    background-color: #FCFDFDDE;
+    color:black;
+    height: 780px;
+    margin-left: 350px;
+    width: 600px;
+    line-height: 20px;
+    
+}
+span{
+    content: '*';
+    margin-top: 3px;
+    position: absolute;
+    margin-left: 5px;
+    color: red;
+}
+input{
+    background-color: #f0f6f4;
+    border-color: rgba(20,70,55,.29);
+    
+    /* height: calc( 10px + 10px + 1px + 1px + 1.2em ); */
+}
+.input-container {
+    display: flex;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .input-container label {
+    width: 150px;
+    margin-right: 10px;
+  }
+  
+  .input-container input {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  .check{
+    margin-top: 20px;
+  }
+  label{
+    color: black;
+  }
+  input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+input[type="email"] {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+select{
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+.checkbox{
+ line-height: 30px;
+}
+input[type="text-field"] {
+    width: 40%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+button{
+ background-color: #88c7b0;
+ border-radius: 20px;
+ padding: 10px 20px;
+}
+b{
+    color:red;
+}
+mark{
+    color: black;
+    background-color: bisque;
+}
